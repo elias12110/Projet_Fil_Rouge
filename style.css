@@ -1,0 +1,663 @@
+/* ---------reset css--------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------reset css-------- */
+
+/*---------Home----------*/
+
+a img {
+	width: 15vw;
+}
+
+header {
+	font-family: "League Spartan", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	height: 7vw;
+	padding-right: 70px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3vw;
+}
+
+header a:hover {
+	color: red;
+}
+
+#openBtn {
+	width: 3vw;
+}
+
+#navbar {
+	display: none;
+}
+
+#navbar a {
+	margin-right: 30px;
+}
+
+video {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+body {
+	background: #101517;
+}
+
+h1 {
+	color: white;
+	font-family: "League Spartan", sans-serif;
+	font-weight: bolder;
+	font-size: 5vw;
+	margin-top: 42vw;
+	margin-bottom: 3vw;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	transition: transform 1s ease-out, opacity 3000s;
+	transform: translateY(0);
+	opacity: 1;
+}
+
+h1.scrolled {
+	transform: translateY(-50px);
+	opacity: 0;
+}
+
+.container {
+	border: solid 1px black;
+	background: linear-gradient(#CE723F, #683A20);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h2 {
+	font-family: "League Spartan", sans-serif;
+	font-size: 3.3vw;
+	font-weight: 750;
+	font-style: italic;
+	margin: 6vw;
+	margin-top: 0vw;
+}
+
+#title {
+	margin-right: 13vw;
+}
+
+.counter {
+	font-family: "League Spartan", sans-serif;
+	font-size: 6vw;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-bottom: 1.3vw;
+	padding-right: 6vw;
+}
+
+p {
+	font-family: "League Spartan", sans-serif;
+	font-size: x-large;
+	font-weight: 500;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.image {
+	margin-left: 3vw;
+}
+
+span {
+	font-weight: 700;
+}
+
+h3 {
+	font-family: "League Spartan", sans-serif;
+	font-size: 3vw;
+	font-weight: 600;
+	margin-right: 2.5vw;
+}
+
+.text2 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 5vw;
+	color: white;
+}
+
+.image2 {
+	margin: 3.5vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.text3 {
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10vw;
+}
+
+.orange {
+	color: #CE723F;
+}
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+}
+
+footer img {
+	width: 3vw;
+	cursor: pointer;
+	margin: 1vw;
+}
+
+.icon {
+	display: flex;
+	flex-direction: row;
+}
+
+.iconFooter {
+	width: 10vw;
+	margin: 0;
+	margin: 1vw;
+}
+
+.link {
+	font-family: "League Spartan", sans-serif;
+	display: flex;
+	text-align: center;
+	width: 30vw;
+	margin: 1vw;
+	justify-content: space-evenly;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 1vw;
+	margin-bottom: 1vh;
+}
+
+footer a:hover {
+	color: red;
+}
+
+@media (max-width: 768px) {
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0 1rem;
+	}
+
+	#openBtn {
+		width: 4.5vw;
+	}
+
+	#navbar {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 7vw;
+		right: 0;
+		background-color: black;
+		width: 100%;
+		text-align: right;
+	}
+
+	#navbar a {
+		margin: 1rem;
+		margin-right: 4.5vw;
+		font-size: 2vw;
+	}
+
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#title {
+		margin-top: 1.3vw;
+		padding-left: 1.3vw;
+		align-items: center;
+	}
+
+	h3 {
+		margin-bottom: 1.3vw;
+		font-size: 5vw;
+	}
+
+	.image,
+	.text {
+		margin: 2vw 0;
+		text-align: center;
+	}
+
+	#text1 {
+		margin-bottom: 3vw;
+	}
+
+	#counter {
+		font-size: 10vw;
+	}
+
+	.image {
+		width: 100%;
+	}
+
+	.text2 {
+		padding: 0 10px 20px;
+	}
+
+	.text3 {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.image2 img {
+		flex-direction: row;
+		width: 50%;
+		margin: 0.1vw;
+	}
+
+	.iconFooter {
+		width: 13vw;
+	}
+
+	link {
+		width: 7vw;
+	}
+}
+
+/*---------Home----------*/
+
+/*---------Abonnements----------*/
+
+.title2 {
+	margin-top: 5vw;
+	padding-bottom: 2vw;
+}
+
+.subscription {
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius: 8px;
+	width: 18vw;
+	height: 30vw;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	text-align: center;
+	margin: 90px;
+}
+
+.subscription h2 {
+	color: #333;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.subscription p {
+	color: #333;
+	font-size: 20px;
+	margin: 5px 0;
+}
+
+.subscription ul {
+	font-family: "League Spartan", sans-serif;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 3vw;
+}
+
+.subscription ul li {
+	color: #666;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.subscription a {
+	font-family: "League Spartan", sans-serif;
+	display: inline-block;
+	margin-top: 5vw;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: 500;
+	background-color: #CE723F;
+	text-decoration: none;
+	border-radius: 17px;
+	transition: background-color 0.3s ease;
+}
+
+#classic {
+	border-color: #CE723F;
+}
+
+#access-plus {
+	border-color: #28a745;
+}
+
+#ultimate {
+	border-color: #dc3545;
+}
+
+#classic a {
+	margin-top: 6.6vw;
+}
+
+#access-plus a {
+	margin-top: 4.2vw;
+}
+
+#access-plus h2 {
+	margin-left: 5vw;
+}
+
+#ultimate h2 {
+	margin-left: 4.5vw;
+}
+
+.container2 {
+	margin-bottom: 30px;
+}
+
+.price {
+	font-weight: 930;
+	font-size: xx-large;
+}
+
+.price2 {
+	border: solid 1px #CE723F;
+	background: #CE723F;
+	border-radius: 6px;
+	padding: 4px;
+}
+
+#frais {
+	font-weight: 330;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.squat {
+	width: 50%;
+	height: 27vw;
+}
+
+.title3 {
+	color: white;
+	font-style: italic;
+	font-size: 50px;
+}
+
+.price2 {
+	font-style: italic;
+}
+
+p {
+	margin-right: 37px;
+}
+
+@media (max-width: 768px) {
+    .subscription {
+        width: 37%;
+        height: auto;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .subscription h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .subscription p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .subscription ul {
+        margin-top: 20px;
+    }
+
+    .subscription ul li {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+    .subscription a {
+        padding: 8px 16px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #classic a, #access-plus a, #ultimate a {
+        margin-top: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title2 {
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .container2 {
+        text-align: center;
+    }
+
+    .squat {
+        width: 100%;
+        height: auto;
+		margin-bottom: 3vw;
+    }
+
+    .title3 {
+        font-size: 24px;
+		margin-bottom: 3vw;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+
+    .price2 {
+        font-size: 16px;
+        padding: 2px 4px;
+    }
+
+    p {
+        margin-right: 0;
+		padding-bottom: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .subscription h2 {
+        font-size: 20px;
+    }
+
+    .subscription p {
+        font-size: 14px;
+    }
+
+    .subscription ul li {
+        font-size: 12px;
+    }
+
+    .subscription a {
+        font-size: 14px;
+    }
+
+    .title2 {
+        font-size: 20px;
+    }
+
+    .title3 {
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .price2 {
+        font-size: 14px;
+    }
+}
+
+/*---------Abonnements----------*/
